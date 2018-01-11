@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+    <appender name="metrics" class="org.keithkim.logback.metrics.datadog.DatadogMetricsAppender"/>
+
+    <root level="info">
+        <appender-ref ref="metrics" />
+    </root>
+</configuration>
